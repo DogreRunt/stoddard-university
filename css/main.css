@@ -1,0 +1,173 @@
+/*** sectioning elements ***/
+
+body {
+  font-family: 'Shrikhand', cursive;
+  font-family: 'Quattrocento', serif;
+  font-family: 'Lora', serif;
+  padding: 5px;
+}
+
+header {
+  background-color: #d5acdf;
+}
+
+main {
+
+}
+
+footer {
+  background-color: #cbbe76;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+  color: #000;
+  font-size: 72px;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+
+}
+
+
+/*** link styles ***/
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:active {
+
+}
+
+/*** odin override ***/
+.navbar {
+      background-color: #d5acdf;
+    }
+
+    .navbar-brand a:link,
+    .navbar-brand a:visited {
+
+    }
+
+    .navbar-brand a:hover,
+    .navbar-brand a:active {
+
+    }
+
+    .navbar-menu a:link,
+    .navbar-menu a:visited {
+      color: #fff;
+    }
+
+    .navbar-menu a:hover,
+    .navbar-menu a:active {
+
+    }
+
+.navbar-menu.menu-shown {
+      background-color: #cbbe76;
+    }
+
+    .menu-toggle {
+      color: #ffffff;
+    }
+
+    .menu-dismiss {
+      color: #ffffff;
+    }
+
+    .menu-shown a:link,
+    .menu-shown a:visited {
+      color: #000000;
+    }
+
+    .menu-shown a:active,
+    .menu-shown a:hover {
+
+    }
