@@ -35,9 +35,9 @@ aside {
 /**** content styles ***/
 
 h1 {
-  color: #000;
-  font-size: 72px;
-  margin: 0;
+  color: #fff;
+  font-size: 86px;
+  padding: 25px;
   text-align: center;
 }
 
