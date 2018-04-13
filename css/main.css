@@ -127,7 +127,7 @@ a:active {
 
 /*** odin override ***/
 .navbar {
-      background-color: #d5acdf;
+      background-color: #cbbe76;
     }
 
     .navbar-brand a:link,
@@ -142,7 +142,7 @@ a:active {
 
     .navbar-menu a:link,
     .navbar-menu a:visited {
-      color: #fff;
+      color: #000;
     }
 
     .navbar-menu a:hover,
@@ -155,16 +155,16 @@ a:active {
     }
 
     .menu-toggle {
-      color: #ffffff;
+      color: #fff;
     }
 
     .menu-dismiss {
-      color: #ffffff;
+      color: #fff;
     }
 
     .menu-shown a:link,
     .menu-shown a:visited {
-      color: #000000;
+      color: #000;
     }
 
     .menu-shown a:active,
