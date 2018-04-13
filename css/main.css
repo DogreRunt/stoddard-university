@@ -42,10 +42,23 @@ aside {
 
 h1 {
   color: #fff;
-  font-size: 86px;
+  font-size: 35px;
   padding: 25px;
   text-align: center;
 }
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 720px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+
 
 h2 {
   color: #000;
@@ -108,8 +121,8 @@ td {
 
 /*** image styles ***/
 
-img  {
-
+img {
+  
 }
 
 
