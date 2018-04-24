@@ -11,12 +11,14 @@ header {
 }
 
 main {
-  font-family: 'Lora', serif;
-  font-family: 'Quattrocento', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 footer {
   background-color: #cbbe76;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 img {
@@ -130,7 +132,8 @@ h6 {
 }
 
 p {
-
+  text-align: center;
+  color: #5e2d79;
 }
 
 blockquote {
@@ -162,7 +165,7 @@ th {
 }
 
 td {
-
+  color: #5e2d79;
 }
 
 
@@ -175,12 +178,28 @@ img {
 
 /*** link styles ***/
 
+a:link.purple {
+  color: #000000;
+}
+
+a:visited.purple {
+    color: #000000;
+}
+
+a:hover.purple {
+  color: #d5acdf;
+}
+
+a:active.purple {
+    color: #d5acdf;
+}
+
 a:link {
   color: #000000;
 }
 
 a:visited {
-  color: #ffffff;
+  color: #000000;
 }
 
 a:hover {
@@ -188,7 +207,7 @@ a:hover {
 }
 
 a:active {
-
+    color: #ffffff;
 }
 
 /*** odin override ***/
