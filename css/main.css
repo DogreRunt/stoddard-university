@@ -172,26 +172,31 @@ td {
 /*** image styles ***/
 
 img {
-
+  display: none;
 }
 
+@media (min-width: 480px) {
+  img {
+    display: block;
+  }
+}
 
 /*** link styles ***/
 
 a:link.purple {
-  color: #000000;
+  color: #5e2d79;
 }
 
 a:visited.purple {
-    color: #000000;
+    color: #5e2d79;
 }
 
 a:hover.purple {
-  color: #d5acdf;
+  color: #000000;
 }
 
 a:active.purple {
-    color: #d5acdf;
+    color: #000000;
 }
 
 a:link {
