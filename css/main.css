@@ -28,8 +28,10 @@ img {
 }
 
 img.left {
+  display: block;
   float: left;
   margin-right: 20px;
+  width: 16%;
 }
 
 nav {
@@ -136,6 +138,11 @@ p {
   color: #5e2d79;
 }
 
+div#container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
 blockquote {
 
 }
@@ -173,9 +180,10 @@ td {
 
 img {
   display: none;
+  width: 75%;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 720px) {
   img {
     display: block;
   }
@@ -185,19 +193,19 @@ img {
 /*** link styles ***/
 
 a:link.purple {
-  color: #000000;
+  color: #5e2d79;
 }
 
 a:visited.purple {
-    color: #000000;
+    color: #5e2d79;
 }
 
 a:hover.purple {
-  color: #d5acdf;
+  color: #000000;
 }
 
 a:active.purple {
-    color: #d5acdf;
+    color: #000000;
 }
 
 a:link {
