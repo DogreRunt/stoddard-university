@@ -215,6 +215,13 @@ a:active {
     color: #ffffff;
 }
 
+/*** carousel ***/
+
+div#carousel {
+grid-area: carousel;
+overflow: hidden;
+}
+
 /*** odin override ***/
 .navbar {
       background-color: #cbbe76;
