@@ -235,6 +235,7 @@ div#carousel {
   div#carousel {
     display: block;
     }
+}
 
 /*** odin override ***/
 .navbar {
@@ -243,12 +244,12 @@ div#carousel {
 
     .navbar-brand a:link,
     .navbar-brand a:visited {
-
+      color: #000;
     }
 
     .navbar-brand a:hover,
     .navbar-brand a:active {
-
+      color: #fff;
     }
 
     .navbar-menu a:link,
@@ -258,7 +259,7 @@ div#carousel {
 
     .navbar-menu a:hover,
     .navbar-menu a:active {
-
+      color: #fff;
     }
 
 .navbar-menu.menu-shown {
@@ -280,5 +281,5 @@ div#carousel {
 
     .menu-shown a:active,
     .menu-shown a:hover {
-
+      color: #fff;
     }
