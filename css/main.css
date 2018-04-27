@@ -74,6 +74,30 @@ h1 {
     }
 }
 
+h1.main {
+  color: #5e2d79;
+  font-size: 40px;
+  padding: 25px;
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  h1.main {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 720px) {
+  h1.main {
+    font-size: 65px;
+  }
+}
+
+  @media (min-width: 960px) {
+    h1.main {
+      font-size: 85px;
+    }
+}
 
 h2 {
   color: #333;
