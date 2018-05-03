@@ -29,9 +29,7 @@ img {
 
 img.left {
   display: block;
-  float: left;
-  margin-right: 20px;
-  width: 16%;
+  width: 45px;
 }
 
 nav {
@@ -176,7 +174,8 @@ ol {
 }
 
 ul {
-
+  color: #5e2d79;
+  text-align: center;
 }
 
 li {
