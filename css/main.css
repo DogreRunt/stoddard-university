@@ -73,7 +73,12 @@ h1 {
 }
 
 h1.main {
-  color: #5e2d79;
+  border: 5px solid #cbbe76;
+  border-radius: 35px 0 35px 0;
+  padding: 20px;
+  text-align: center;
+
+  color: #d5acdf;
   font-size: 40px;
   padding: 25px;
   text-align: center;
