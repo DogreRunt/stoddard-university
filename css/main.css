@@ -77,11 +77,8 @@ h1.main {
   border-radius: 35px 0 35px 0;
   padding: 20px;
   text-align: center;
-
   color: #d5acdf;
   font-size: 40px;
-  padding: 25px;
-  text-align: center;
 }
 
 @media (min-width: 480px) {
